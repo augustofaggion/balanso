@@ -1,4 +1,3 @@
-import Image from "next/image";
 import BudgetTracker from "@/app/components/BudgetTracker";
 
 export default function Home() {
