@@ -8,7 +8,8 @@ const BudgetTracker = () => {
   const [budget, setBudget] = useState(0);
   const [amount, setAmount] = useState(10);
 
-  // Load budget from localStorage on component mount
+  // Load budget from localStorage on the component mount
+
   useEffect(() => {
     const savedBudget = localStorage.getItem("budget");
     if (savedBudget) {
@@ -120,10 +121,6 @@ const BudgetTracker = () => {
           fullWidth
         />
 
-        {/* Footer */}
-        <div className="text-center mt-8 text-white/50 text-sm">
-          Your budget is automatically saved on this device
-        </div>
       </div>
     </div>
   );
