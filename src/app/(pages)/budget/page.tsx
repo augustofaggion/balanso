@@ -1,6 +1,7 @@
 import React from 'react';
 import Tracker from '@/app/components/Tracker';
 import { Euro } from 'lucide-react';
+import Navbar from '@/app/components/NavbarHome';
 
 const BudgetPage = () => {
   return (
@@ -15,6 +16,7 @@ const BudgetPage = () => {
       removeLabel="Remove"
       resetLabel="Reset Budget"
       />
+       <Navbar />
     </div>
   );
 };
