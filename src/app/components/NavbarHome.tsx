@@ -3,11 +3,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { FaArrowCircleRight, FaBars, FaTimes } from "react-icons/fa";
 
-interface NavbarHomeProps {
-  // props here
-}
-
-const NavbarHome: React.FC<NavbarHomeProps> = (props) => {
+const NavbarHome = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -51,7 +47,7 @@ const NavbarHome: React.FC<NavbarHomeProps> = (props) => {
               How to install
             </Link>
             <Link
-              href='/install'
+              href='#install'
               className='flex items-center gap-2 bg-black hover:bg-blue-700 px-3 sm:px-4 py-2 sm:py-2 rounded-3xl font-bold text-white text-sm sm:text-base transition-colors duration-200'
             >
               Try Now <FaArrowCircleRight size={20}/>
@@ -94,7 +90,7 @@ const NavbarHome: React.FC<NavbarHomeProps> = (props) => {
                 How to install
               </Link>
               <Link
-                href='/install'
+                href='#install'
                 className='flex justify-center items-center gap-2 bg-black hover:bg-blue-700 mt-2 px-3 py-2 rounded-xl font-bold text-white text-sm transition-colors duration-200'
                 onClick={() => setIsMenuOpen(false)}
               >

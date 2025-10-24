@@ -88,7 +88,7 @@ const InstallSection: React.FC = () => {
             Install Balanso on Your Phone
           </h2>
           <p className="mx-auto mb-8 max-w-2xl text-gray-600 text-lg">
-            It's super easy! Just follow these simple steps to get Balanso on
+            It&apos;s super easy! Just follow these simple steps to get Balanso on
             your phone like a real app.
           </p>
 

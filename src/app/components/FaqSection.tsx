@@ -49,7 +49,7 @@ const FaqSection: React.FC = () => {
             Frequently Asked Questions
           </h2>
           <p className="mx-auto max-w-2xl text-gray-600 text-lg">
-            Got questions? We've got answers! Here's everything you need to know about Balanso.
+            Got questions? We&apos;ve got answers! Here&apos;s everything you need to know about Balanso.
           </p>
         </div>
 
@@ -88,24 +88,6 @@ const FaqSection: React.FC = () => {
             </div>
           ))}
         </div>
-
-        {/* Additional Help */}
-        {/* <div className="mt-12 text-center">
-          <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-8 border border-blue-100 rounded-xl">
-            <h3 className="mb-3 font-bold text-gray-900 text-xl">
-              Still have questions? 🤔
-            </h3>
-            <p className="mb-4 text-gray-600">
-              We're here to help! Feel free to reach out if you need more information.
-            </p>
-            <a
-              href="mailto:support@balanso.com"
-              className="inline-flex justify-center items-center bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-full font-medium text-white transition-colors duration-200"
-            >
-              Contact Support
-            </a>
-          </div>
-        </div> */}
       </div>
     </section>
   );
