@@ -102,7 +102,7 @@ const Footer: React.FC = () => {
         <div className="mt-8 pt-8 border-gray-800 border-t">
           <div className="flex sm:flex-row flex-col justify-between items-center">
             <p className="mb-4 sm:mb-0 text-gray-400 text-sm">
-              © {new Date().getFullYear()} Balanso. All rights reserved.
+              © {new Date().getFullYear()} Augudo. All rights reserved.
             </p>
             <p className="flex items-center text-gray-400 text-sm">
               Made with <FaHeart className="mx-1 text-red-500" size={12} /> for better financial health
